@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Foccuss
+Comment=Application Blocker
+Exec=foccuss
+Icon=foccuss
+Terminal=false
+Categories=Utility;System;
+StartupNotify=true 

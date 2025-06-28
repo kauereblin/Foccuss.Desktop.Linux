@@ -1,0 +1,110 @@
+#pragma once
+#ifndef COMMON_H
+#define COMMON_H
+
+#include "QtVersionCheck.h"
+
+#include <QObject>
+#include <QString>
+#include <QList>
+#include <QHash>
+#include <QMap>
+#include <QSet>
+#include <QVector>
+#include <QDebug>
+#include <QFile>
+#include <QDir>
+#include <QFileInfo>
+#include <QDateTime>
+#include <QTimer>
+#include <QTime>
+#include <QSettings>
+#include <QStandardPaths>
+#include <QStandardItem>
+#include <QStandardItemModel>
+#include <QCoreApplication>
+#include <QSharedMemory>
+#include <QProcess>
+#include <QRegularExpression>
+#include <QTextStream>
+#include <QThread>
+#include <QAbstractNativeEventFilter>
+#include <QEvent>
+#include <QKeyEvent>
+#include <QMouseEvent>
+#include <QStyle>
+#include <QStyleFactory>
+#include <QGraphicsOpacityEffect>
+#include <QPropertyAnimation>
+
+#include <QIcon>
+#include <QFileIconProvider>
+#include <QPixmap>
+#include <QImage>
+#include <QMetaType>
+
+#include <QApplication>
+#include <QScreen>
+#include <QPainter>
+#include <QColor>
+#include <QTabWidget>
+#include <QTimeEdit>
+#include <QCheckBox>
+#include <QMainWindow>
+#include <QGroupBox>
+#include <QWidget>
+#include <QDialog>
+#include <QMessageBox>
+#include <QPushButton>
+#include <QLabel>
+#include <QLineEdit>
+#include <QComboBox>
+#include <QListView>
+#include <QListWidget>
+#include <QTreeView>
+#include <QTableView>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QGridLayout>
+#include <QSplitter>
+#include <QSystemTrayIcon>
+#include <QMenu>
+#include <QAction>
+#include <QCloseEvent>
+#include <QSpacerItem>
+#include <QSizePolicy>
+#include <QPluginLoader>
+#include <QGuiApplication>
+#include <QBrush>
+#include <QPen>
+
+#include <QSqlDatabase>
+#include <QSqlQuery>
+#include <QSqlError>
+#include <QSqlRecord>
+
+#include <QNetworkAccessManager>
+#include <QNetworkRequest>
+#include <QJsonDocument>
+#include <QJsonArray>
+#include <QJsonObject>
+#include <QNetworkReply>
+
+#include <memory>
+#include <algorithm>
+#include <vector>
+#include <string>
+#include <functional>
+#include <csignal>
+#include <cstdlib>
+#include <unistd.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+#include "X11Includes.h"
+
+#endif // COMMON_H 

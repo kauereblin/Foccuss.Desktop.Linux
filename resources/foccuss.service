@@ -1,0 +1,15 @@
+[Unit]
+Description=Foccuss Application Blocker Service
+After=network.target display-manager.service
+
+[Service]
+Type=simple
+User=%i
+ExecStart=/usr/bin/foccuss --service
+Restart=always
+RestartSec=3
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/%i/.Xauthority
+
+[Install]
+WantedBy=multi-user.target 
